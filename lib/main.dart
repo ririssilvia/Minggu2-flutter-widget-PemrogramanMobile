@@ -9,8 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text(
-        'This is Text Widget',
+      home: Image(
+        image: NetworkImage(
+            'https://www.wildlifeaid.org.uk/wp-content/uploads/2019/11/BarnOwl-1619x1080.jpg'),
       ),
     );
   }
