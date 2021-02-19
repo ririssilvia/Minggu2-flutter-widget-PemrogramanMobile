@@ -149,6 +149,90 @@ class MyApp extends StatelessWidget {
               ),
             ],
           ),
+        ),
+        Container(
+          decoration: BoxDecoration(border: Border.all(color: Colors.blue[900])),
+          margin: EdgeInsets.only(top: 10),
+          child: Row(
+            children: <Widget>[
+              Column(children: <Widget>[
+                Image.network(
+                  "https://images.daznservices.com/di/library/GOAL/c0/68/gerard-pique-barcelona-yellow-card-2020-21_1b5pixs2oir8s1hy0nwfy1tnrz.jpg?t=1931977831&quality=60&w=1200&h=800",
+                  width: 150.0,
+                  height: 120.0,
+                  fit: BoxFit.cover,
+                ),
+              ]),
+              Container(
+                margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
+                alignment: Alignment.center,
+                child: Text(
+                    "Pique Bilang Wasit Untungkan Madrid, Koeman Tapuk Jidat",
+                    maxLines: 2,
+                    style: TextStyle(color: Colors.black, fontSize: 12)),
+                height: 120,
+                width: 170,
+              ),
+            ],
+          ),
+        ),
+        Container(
+          child: Row(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(5.0),
+                decoration:
+                    BoxDecoration(border: Border.all(color: Colors.black)),
+                alignment: Alignment.centerLeft,
+                child: Text("Barcelona Feb 13, 2021",
+                    style: TextStyle(color: Colors.black)),
+                height: 30,
+                width: 411,
+              ),
+            ],
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(border: Border.all(color: Colors.blue[900])),
+          margin: EdgeInsets.only(top: 10),
+          child: Row(
+            children: <Widget>[
+              Column(children: <Widget>[
+                Image.network(
+                  "https://images.daznservices.com/di/library/GOAL/c0/68/gerard-pique-barcelona-yellow-card-2020-21_1b5pixs2oir8s1hy0nwfy1tnrz.jpg?t=1931977831&quality=60&w=1200&h=800",
+                  width: 150.0,
+                  height: 120.0,
+                  fit: BoxFit.cover,
+                ),
+              ]),
+              Container(
+                margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
+                alignment: Alignment.center,
+                child: Text(
+                    "Pique Bilang Wasit Untungkan Madrid, Koeman Tapuk Jidat",
+                    maxLines: 2,
+                    style: TextStyle(color: Colors.black, fontSize: 12)),
+                height: 120,
+                width: 170,
+              ),
+            ],
+          ),
+        ),
+        Container(
+          child: Row(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(5.0),
+                decoration:
+                    BoxDecoration(border: Border.all(color: Colors.black)),
+                alignment: Alignment.centerLeft,
+                child: Text("Barcelona Feb 13, 2021",
+                    style: TextStyle(color: Colors.black)),
+                height: 30,
+                width: 411,
+              ),
+            ],
+          ),
         )
       ]),
     ));
